@@ -24,6 +24,7 @@ const Details = ({ location }) => {
         return (
 
             <div className="container">
+                <h2 className="text-center">Rent Vroom</h2>
                 <a href='/' className="btn btn-light">Home Page</a>
                 <div className="card mb-3">
                     <div className="row no-gutters">
@@ -74,7 +75,7 @@ const Details = ({ location }) => {
 
 
                 <div>
-                    <footer className="footer-distributed">
+                    <div className="footer-distributed">
 
                         <div className="footer-left">
 
@@ -96,7 +97,7 @@ const Details = ({ location }) => {
                                     <a href="/" className="btn btn-light">Contact</a>
                             </p>
                         </div>
-                    </footer>
+                    </div>
                 </div>
             </div>
         )
@@ -104,6 +105,7 @@ const Details = ({ location }) => {
 
     return (
         <div className="container">
+            <h2 className="text-center">Rent Vroom</h2>
          <a href='/' className="btn btn-light">Home Page</a>
             <div className="card mb-3">
                 <div className="row no-gutters">
@@ -111,7 +113,7 @@ const Details = ({ location }) => {
                         <img src={car.img} className="card-img" alt="..." />
                     </div>
                     <div className="col-md-6">
-                        <div className="card-body">
+                        <div className="card-body text-center">
                             <h5 className="card-title">{car.name}</h5>
                             <pre className="card-text text-muted">{car.color}    {car.seat}</pre>
                             <p>Rent per day: ₹ {car.rent}</p>
@@ -135,7 +137,7 @@ const Details = ({ location }) => {
 
             <br /><br /><br /><br />
             <div>
-                <footer className="footer-distributed">
+                <div className="footer-distributed">
 
                     <div className="footer-left">
 
@@ -157,7 +159,7 @@ const Details = ({ location }) => {
                                 <a href="/" className="btn btn-light">Contact</a>
                         </p>
                     </div>
-                </footer>
+                </div>
             </div>
         </div>
     )

@@ -5,13 +5,14 @@ import './Main.css';
 
 const Main = () => {
     return (
-        <div className="container">
+        <div className="container ">
+            <h2 className="text-center">Rent Vroom</h2>
             <div>
                 <h3>Car for rent </h3>
                 <br /> <br />
             </div>
             <div>
-                <div className="card mb-3">
+                <div className="card mb-3 text-center">
                     <div className="row no-gutters">
                         <div className="col-md-4">
                             <img src={require('./img/HyundaiGrandi10.jpg')} alt="Hyundai Grand i10" />
@@ -38,7 +39,7 @@ const Main = () => {
                     </div>
                 </div>
 
-                <div className="card mb-3">
+                <div className="card mb-3 text-center">
                     <div className="row no-gutters">
                         <div className="col-md-4">
                             <img src={require('./img/FordEcoSport.jpg')} alt="Ford EcoSport" />
@@ -65,7 +66,7 @@ const Main = () => {
                     </div>
                 </div>
 
-                <div className="card mb-3">
+                <div className="card mb-3 text-center">
                     <div className="row no-gutters">
                         <div className="col-md-4">
                             <img src={require('./img/MarutiSuzukiXL6.jpg')} alt="Maruti Suzuki XL6" />
@@ -92,7 +93,7 @@ const Main = () => {
                     </div>
                 </div>
 
-                <div className="card mb-3">
+                <div className="card mb-3 text-center">
                     <div className="row no-gutters">
                         <div className="col-md-4">
                             <img src={require('./img/HondaCR-V.jpg')} alt="Honda CR-V" height="90%" width="70%" />
@@ -123,7 +124,7 @@ const Main = () => {
             <br /> <br />
 
             <div>
-                <footer className="footer-distributed">
+                <div className="footer-distributed">
 
                     <div className="footer-left">
 
@@ -145,7 +146,7 @@ const Main = () => {
                                 <a href="/" className="btn btn-light">Contact</a>
                         </p>
                     </div>
-                </footer>
+                </div>
             </div>
         </div >
     )
